@@ -1,4 +1,4 @@
-(ns eqn.calc)
+(ns clj-eqn.calc)
 
 (def opinfo {
               "*" { :prec 3 :inv "/" :op *}

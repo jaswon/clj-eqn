@@ -1,6 +1,6 @@
 (ns clj-eqn.core
   (:require [reagent.core :as r]
-            [eqn.calc :as calc]))
+            [clj-eqn.calc :as calc]))
 
 (defn app []
   [:div {:id "app"}
